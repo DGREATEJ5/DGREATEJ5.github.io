@@ -41,7 +41,10 @@
         }
 
         img {
-            width: 50px;
+            position: relative;
+            top: 9px;
+            left: 5px;
+            width: 60px;
             margin-left: 20px;
             opacity: 0;
             height: auto;

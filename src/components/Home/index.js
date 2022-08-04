@@ -1,9 +1,10 @@
-import LogoTitle from "../../assets/images/E-logo2.png";
+import LogoTitle from "../../assets/images/E-logo4.png";
 import { Link } from 'react-router-dom'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import React from 'react'
 import Logo from './Logo'
+import Loader from 'react-loaders'
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
     }, [])
 
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -26,7 +28,7 @@ const Home = () => {
                 <br />
                 <span className={`${letterClass} _13`}>I</span>
                 <span className={`${letterClass} _14`}>'m</span>
-                <img src={LogoTitle} alt="developer" />
+                <img src={LogoTitle} alt="developer" className="Logo" />
                 <AnimatedLetters letterClass={letterClass} 
                 strArray={nameArray} 
                 idx={15} />
@@ -40,6 +42,8 @@ const Home = () => {
             </div>
             <Logo />
         </div>
+        <Loader type="pacman" />
+        </>
     )
 }
 
