@@ -1,7 +1,7 @@
 .stage-cube-cont {
     width: 50%;
     height: 100%;
-    top: 0;
+    top: -6%;
     padding-top: 18%;
     margin-left: 0;
     position: absolute;
@@ -77,5 +77,15 @@
     }
     83% {
       transform: rotateX(90deg);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .stage-cube-cont {
+      top: 300px;
+      padding-top: 18%;
+      width: 100%;
+      right: 0;
+      overflow: hidden;
     }
   }

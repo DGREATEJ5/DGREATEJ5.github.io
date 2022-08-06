@@ -3,8 +3,8 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 40%;
+        transform: translateY(-40%);
         width: 40%;
         max-height: 90%;
     }
@@ -81,5 +81,23 @@
             background-color: #ffd700;
             color: #333;
         }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-page {
+
+        .text-zone {
+            top: 40%;
+            transform: translateY(-40%);
+            width: auto ;
+            left: 5%;
+        }
+
+        h1 {
+            font-size: 47px;
+        }
+
+        
     }
 }

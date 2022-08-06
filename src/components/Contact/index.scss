@@ -132,3 +132,24 @@
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
   }
+
+  @media screen and (max-width: 768px)  {
+
+    .contact-form {
+      width: 80%;
+      margin-left: 5%;
+      
+
+      ul {
+        margin-bottom: 50px;
+      }
+    }
+
+    .info-map {
+      display: none;
+    }
+
+    .map-wrap {
+      display: none;
+    }
+  }

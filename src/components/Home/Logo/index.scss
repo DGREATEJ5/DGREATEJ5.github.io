@@ -1,5 +1,5 @@
 .logo-container {
-    z-index: -1;
+    z-index: -99999;
     width: 400px;
     height: 609px;
     position: absolute;
@@ -8,4 +8,10 @@
     bottom: 0;
     left: auto;
     margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-container {
+        right: -110%;
+    }
 }

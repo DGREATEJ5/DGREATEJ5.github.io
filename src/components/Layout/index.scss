@@ -30,7 +30,7 @@
     min-height: 566px;
     position: absolute;
     opacity: 0;
-    top: 5%;
+    top: 10%;
     margin: 0 auto;
     z-index: 1;
     transform-style: preserve-3d;
@@ -43,8 +43,8 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 43%;
+        transform: translateY(-43%);
         width: 35%;
         vertical-align: middle;
         display: table-cell;
@@ -102,5 +102,66 @@
         &:hover {
             color: #fff;
         }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        overflow-x: hidden;
+    }
+
+    .top-tags {
+        top: 70px;
+        z-index: 9999;
+        left: 10%;
+    }
+
+    .tags {
+        left: 10%;
+    }
+
+    .bottom-tag-html {
+        z-index: 9999;
+    }
+
+
+    .about-page {
+
+        .text-zone {
+            top: 20%;
+            transform: translateY(-20%);
+            width: auto ;
+            left: 5%;
+        }
+
+        h1 {
+            font-size: 47px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .contact-page {
+
+        .text-zone {
+            top: 40%;
+            transform: translateY(-30%);
+            width: 100%;
+            left: 5%;
+        }
+
+        h1 {
+            font-size: 47px;
+        }
+
+        p {
+
+            font-size: 14px;
+            width: auto;
+            padding-right: 40px;
+        }
+        
     }
 }
