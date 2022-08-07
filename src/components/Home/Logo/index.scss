@@ -1,17 +1,33 @@
-.logo-container {
-    z-index: -99999;
-    width: 400px;
-    height: 609px;
-    position: absolute;
-    top: 0;
-    right: -10%;
-    bottom: 0;
-    left: auto;
-    margin: auto;
+.spline-container {
+    
+
+    .spline {
+        z-index: -99999;
+        position: absolute;
+        top: -5%;
+        right: -15%;
+        bottom: 0;
+        left: auto;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .logo-container {
-        right: -110%;
+    .spline-container {
+        
+        .spline {
+            right: -60%;
+            transform: scale(0.6) translateX(-100px);
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .spline-container {
+        
+        .spline {
+            right: -120%;
+            transform: scale(0.7) translateX(-100px);
+        }
     }
 }

@@ -9,8 +9,8 @@ const Logo = () => {
     
 
     return (
-        <div>
-            <Spline className="logo-container" scene="https://prod.spline.design/4pfOWnUVkcuN7arI/scene.splinecode" />
+        <div className="spline-container">
+            <Spline className="spline" scene="https://prod.spline.design/4pfOWnUVkcuN7arI/scene.splinecode" />
         </div>
     )
 }
