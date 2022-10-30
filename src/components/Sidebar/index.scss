@@ -6,6 +6,8 @@
     position: absolute;
     top: 0;
     z-index: 3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 
     .logo {
         display: block;
@@ -186,9 +188,9 @@
             backdrop-filter: blur(.5rem);
             align-items: center;
             justify-content: space-around;
-            transition: all .8s ease-out;
-    
+            animation: .3s ease-out 0s 1 slideInFromLeft;
 
+        
 
             a {
                 font-size: 22px;
@@ -280,4 +282,15 @@
 
     
   }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } 
+
+  
 
