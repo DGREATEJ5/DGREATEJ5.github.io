@@ -87,6 +87,7 @@
 
         .cont {
             display: block;
+            margin-left: -30px;
 
             .cont-con1 {
                 z-index: 1000;
@@ -100,14 +101,14 @@
         .pic-con {
             position: absolute;
             width: 340px;
-            margin-left: 200px;
+            margin-left: 230px;
             margin-top: -40px;
             z-index: -10000;
         }
 
         .flat-button {
             margin-top: 40px;
-            margin-left: 140px;
+            margin-left: 100px;
         }
         
     }
