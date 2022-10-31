@@ -89,6 +89,13 @@
                 }
             }
 
+            &.portfolio-link {
+                &:after {
+                    content: 'PORTFOLIO';
+                    font-size: 6px;
+                }
+            }
+
             &.contact-link {
                 &:after {
                     content: 'CONTACT';
@@ -248,6 +255,12 @@
                 &.contact-link {
                     &:after {
                         content: 'CONTACT';
+                    }
+                }
+
+                &.portfolio-link {
+                    &:after {
+                        content: 'PORTFOLIO';
                     }
                 }
     
