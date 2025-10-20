@@ -48,8 +48,8 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/dgreatej_05" target="_blank" rel="noreferrer">
-            <i className="fa-brands fa-twitter"></i>
+          <a href="https://www.linkedin.com/in/dgreatej5/" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-linkedin"></i> 
           </a>
         </li>
         <li>
