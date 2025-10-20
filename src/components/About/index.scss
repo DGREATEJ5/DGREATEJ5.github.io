@@ -8,6 +8,11 @@
     right: 0;
     overflow: hidden;
   }
+
+  p {
+        font-size: 15px;
+        font-weight: bold;
+  }
   
   .cubespinner {
     animation-name: spincube;
@@ -87,5 +92,10 @@
       width: 100%;
       right: 0;
       overflow: hidden;
+    }
+
+    p {
+      text-align: justify;
+      padding-right: 30px;
     }
   }

@@ -1,0 +1,10 @@
+{
+    "portfolio": [
+        {
+            "cover": "portfolio/cons.png",
+            "title": "GGWP",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "http://google.com"
+        }
+    ]
+}

@@ -27,23 +27,26 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I'm very ambitious front-end developer looking for a role in establised IT company with the opportunity to work with the latest technologies on challenging and diverse porjects.
+                    I'm a passionate software engineer who loves building AI-driven applications
+            that solve real-world problems. My focus areas include natural language
+            processing, computer vision, and automation — blending creativity with
+            technical expertise to develop efficient, scalable systems.
                 </p>
             </div>
 
             <div className="stage-cube-cont">
                 <div className="cubespinner">
                     <div className="face1">
-                        <i class="fa-brands fa-react react"></i>
+                        <i class="fa-brands fa-aws aws"></i>
                     </div>
                     <div className="face2">
-                        <i class="fa-brands fa-js js"></i>
+                        <i class="fa-brands fa-java java"></i>
                     </div>
                     <div className="face3">
-                        <i class="fa-brands fa-html5 html"></i>
+                        <i class="fa-brands fa-js js"></i>
                     </div>
                     <div className="face4">
-                        <i class="fa-brands fa-css3 css"></i>
+                        <i class="fa-brands fa-react react"></i>
                     </div>
                     <div className="face5">
                         <i class="fa-brands fa-git-alt git"></i>

@@ -15,7 +15,7 @@ const Portfolio = () => {
             return setLetterClass('text-animate-hover')
         }, 3000)
     }, [])
-
+    
     return (
         <>
         <div className="container portfolio-page">

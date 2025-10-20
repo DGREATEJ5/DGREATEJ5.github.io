@@ -99,6 +99,14 @@
             &.contact-link {
                 &:after {
                     content: 'CONTACT';
+                    font-size: 7px;
+                }
+            }
+
+            &.work-link {
+                &:after {
+                    content: 'WORK';
+                    font-size: 8px;
                 }
             }
 
