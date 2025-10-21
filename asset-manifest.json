@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.77009f1e.css",
-    "main.js": "/static/js/main.2aed1603.js",
+    "main.css": "/static/css/main.25d02dc6.css",
+    "main.js": "/static/js/main.0ede59ab.js",
     "static/js/232.168acb53.chunk.js": "/static/js/232.168acb53.chunk.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/mypic.png": "/static/media/mypic.9cd17818674154f96437.png",
-    "static/media/cons.png": "/static/media/cons.e2e33438acf81428ed3e.png",
+    "static/media/brandifyai.png": "/static/media/brandifyai.59e209a2d0616ca09c30.png",
+    "static/media/healthifyai.png": "/static/media/healthifyai.8b3e27210724ea668d71.png",
+    "static/media/libraian.png": "/static/media/libraian.5f5ec2d4a033243ac7cf.png",
     "static/media/Resume - Gumtang, Edmar Jan B..pdf": "/static/media/Resume - Gumtang, Edmar Jan B..2d7a121cdef83100a4f9.pdf",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.77009f1e.css.map": "/static/css/main.77009f1e.css.map",
-    "main.2aed1603.js.map": "/static/js/main.2aed1603.js.map",
+    "main.25d02dc6.css.map": "/static/css/main.25d02dc6.css.map",
+    "main.0ede59ab.js.map": "/static/js/main.0ede59ab.js.map",
     "232.168acb53.chunk.js.map": "/static/js/232.168acb53.chunk.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77009f1e.css",
-    "static/js/main.2aed1603.js"
+    "static/css/main.25d02dc6.css",
+    "static/js/main.0ede59ab.js"
   ]
 }
